@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(29, 29, 233);
+    height: 118px;
+    width: 1024px;
+}
+main{
+    background-color: rgb(252, 134, 0);
+    height: 400px;
+    width: 1024px;
+}
+footer{
+    background-color: rgb(38, 153, 48);
+    height: 100px;
+    width: 1024px;
+}
+
+
+/*nav{
+    background-color: rgb(238, 14, 14);
+    width: 1024px;
+    height: 40px;
+
+}*/
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(217, 255, 0);
+
+}
+#forlogo{
+    background-color: rgb(14, 238, 25);
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+#forbody{
+    background-color: rgb(14, 238, 25);
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+*{
+    width: 100%;;
+}
+ol{
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+    color: rgb(7, 3, 7);
+    text-decoration: bolder;
+}
+/*button{
+    background-color: rgb(14, 167, 238);
+    width: 100px;
+    height: 30px;
+   
+    
+}*/
