@@ -1,58 +1,101 @@
-header{
-    background-color: rgb(29, 29, 233);
-    height: 118px;
-    width: 1024px;
-}
-main{
-    background-color: rgb(252, 134, 0);
-    height: 400px;
-    width: 1024px;
-}
-footer{
-    background-color: rgb(38, 153, 48);
-    height: 100px;
-    width: 1024px;
-}
-
-
-/*nav{
-    background-color: rgb(238, 14, 14);
-    width: 1024px;
-    height: 40px;
-
-}*/
-h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(217, 255, 0);
-
-}
-#forlogo{
-    background-color: rgb(14, 238, 25);
-    width: 100px;
-    height: 30px;
+* {
+    padding: 0%;
     margin: auto;
+
 }
-#forbody{
-    background-color: rgb(14, 238, 25);
-    width: 300px;
-    height: 200px;
-    margin: auto;
+body {
+    background-image: url("./images/background-adare-restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-*{
-    width: 100%;;
+header {
+  height: 60px;
+  width: 1024px;
+  text-align: center;
 }
-ol{
-    text-transform: uppercase;
-    text-align: center;
-    list-style: none;
-    color: rgb(7, 3, 7);
-    text-decoration: bolder;
+main {
+
+  width: 1024px;
+  text-align: center;
+  color: white;
 }
-/*button{
-    background-color: rgb(14, 167, 238);
-    width: 100px;
-    height: 30px;
+main h1{
+    margin-top: 100px;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(49, 46, 46);
+  margin-top: 10px;
+}
+nav{
+    margin-left:  200px;
+    position:fixed;
+    margin-top: -100px;
+}
+nav ul {
+  color: rgb(252, 250, 250);
+  width: 600px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "roboto", sans-serif;
+  list-style: none;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.493);
+}
+
+#forlogo {
+  width: 100px;
+  height: 30px;
+}
+#forbody {
+  width: 400px;
+  height: 200px;
+  margin-top: 100px ;
+}
+
+ol li {
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  color: rgb(7, 3, 7);
+  text-decoration: bolder;
+}
+button {
+  width: 100px;
+  height: 30px;
+ 
+}
+p{
+    text-align:center ;
+    width: 200px;
+    min-height: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
    
+}
+a{
+    color: green;
+    text-decoration: none;
     
-}*/
+
+}
+a:hover{
+    background-color: rgb(188, 243, 166);
+    border-radius: 2px;
+    padding: 5px;
+    
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 1);
+}
+footer ol{
+    
+    list-style: none;
+    text-align: center;
+   
+}
+footer li{
+    
+    color: rgb(255, 255, 255);
+    padding: 30px 0 20px 0;
+}
